@@ -1,0 +1,14 @@
+E:\WEB-LAB\CrossApp\src\Cli\bin\Debug\net8.0\Cli.exe
+E:\WEB-LAB\CrossApp\src\Cli\bin\Debug\net8.0\Cli.deps.json
+E:\WEB-LAB\CrossApp\src\Cli\bin\Debug\net8.0\Cli.runtimeconfig.json
+E:\WEB-LAB\CrossApp\src\Cli\bin\Debug\net8.0\Cli.dll
+E:\WEB-LAB\CrossApp\src\Cli\bin\Debug\net8.0\Cli.pdb
+E:\WEB-LAB\CrossApp\src\Cli\obj\Debug\net8.0\Cli.GeneratedMSBuildEditorConfig.editorconfig
+E:\WEB-LAB\CrossApp\src\Cli\obj\Debug\net8.0\Cli.AssemblyInfoInputs.cache
+E:\WEB-LAB\CrossApp\src\Cli\obj\Debug\net8.0\Cli.AssemblyInfo.cs
+E:\WEB-LAB\CrossApp\src\Cli\obj\Debug\net8.0\Cli.csproj.CoreCompileInputs.cache
+E:\WEB-LAB\CrossApp\src\Cli\obj\Debug\net8.0\Cli.dll
+E:\WEB-LAB\CrossApp\src\Cli\obj\Debug\net8.0\refint\Cli.dll
+E:\WEB-LAB\CrossApp\src\Cli\obj\Debug\net8.0\Cli.pdb
+E:\WEB-LAB\CrossApp\src\Cli\obj\Debug\net8.0\Cli.genruntimeconfig.cache
+E:\WEB-LAB\CrossApp\src\Cli\obj\Debug\net8.0\ref\Cli.dll
