@@ -14,12 +14,46 @@
 - **Program.cs** — основний код програми.
 - **README.md** — опис лабораторної роботи.
 
+# Лабораторна робота №2  
+**Тема:** Публікація .NET застосунків у різних режимах
+
+## Опис
+У цій лабораторній роботі створено крос‑платформний застосунок **CrossApp**, який складається з двох проєктів:
+- **Core** — бібліотека, що збирає інформацію про середовище (ОС, архітектура, RID, runtime).
+- **Cli** — консольний застосунок, який викликає Core і виводить зібрані дані у консоль.
+
+Мета роботи — дослідити різні варіанти публікації .NET застосунків, порівняти їх розмір, кількість файлів та особливості запуску.
+
 ---
 
-### Команди для запуску
+## Структура рішення
+CrossApp/
+├── src/
+│   ├── Core/   → бібліотека EnvironmentInfo
+│   └── Cli/    → консольний застосунок
+└── CrossApp.sln
+
+### Збірка та запуск
+
+dotnet build
+
+dotnet run --project src/Cli
+
 
 #### Локальний запуск
-```bash
+
 dotnet run --project src/Cli
-#### команда для запуску
+
+Публікація
+Framework-dependent:
+
+dotnet publish src/Cli -c Release -r win-x64 --self-contained false
+
+Self-contained:
+
+dotnet publish src/Cli -c Release -r win-x64 --self-contained true
+
+Замір розміру каталогу publish
+powershell
+(Get-ChildItem -Recurse src/Cli/bin/Release/net8.0/win-x64/publish | Measure-Object 
 
